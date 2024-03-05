@@ -53,7 +53,7 @@ global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "25410772666,923xxxxxxxx";
-
+global.auto_react_from =  process.env.AUTO_REACT || "true”  
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://qr-scan.giftedtechnexus.co.ke/";
 
@@ -66,10 +66,10 @@ module.exports = {
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "KING IBRAHIM MD 2024" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o"),
  
-  author : process.env.PACK_AUTHER|| "KINGIBRAHIM",
+  author : process.env.PACK_AUTHER|| "KINPIN,
   packname: process.env.PACK_NAME || "👑",
-  botname : process.env.BOT_NAME  || "𝙆𝙄𝙉𝙂 𝙄𝘽𝙍𝘼𝙃𝙄𝙈 𝙈𝘿",
-  ownername:process.env.OWNER_NAME|| "It's Ibrahim",
+  botname : process.env.BOT_NAME  || "INNOCENT _KINPIN",
+  ownername:process.env.OWNER_NAME|| "Its KINPIN",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
